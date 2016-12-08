@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="自定完成的内容为Android学过的组件名" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomepleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="试试A,T,M,P,N" />
+    <!-- android:dropDownHeight="40dp" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutoCompleteTextView actv = /n(AutoCompleteTextView) findViewById(R.id.autocomepleteTextView)/n
+actv.setAdapter(new ArrayAdapter &apos;＜String＞&apos; (/n
+AutoComepleteTextActivity.this,/n
+android.R.layout.simple_list_item_1, MainActivity.learend));" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/longclicktextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="长按" />
+    <TextView
+        android:id="@+id/textviewsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="现在的字体大小是\n  15  dp" />
+    <Button
+        android:id="@+id/add_test_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="添加ContextMenu"/>
+
+</LinearLayout>

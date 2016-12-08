@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Setlargetextsize"
+        android:onClick="setLargeSize"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Set large textsize"/>
+    <item
+        android:id="@+id/Resits"
+        android:onClick="setnormalSize"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Set normal textsize"/>
+    <item
+        android:id="@+id/Setsmalltextsize"
+        android:onClick="setSmallSize"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="Set small textsize"/>
+    <item
+        android:id="@+id/SetColors"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="Set Colors">
+        <menu>
+            <item
+                android:id="@+id/Setred"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="RED"/>
+            <item
+                android:id="@+id/Setgreen"
+                android:orderInCategory="101"
+                android:showAsAction="never"
+                android:title="GREEN"/>
+            <item
+                android:id="@+id/SetBlue"
+                android:orderInCategory="102"
+                android:showAsAction="never"
+                android:title="BLUE"/>
+            <item
+                android:id="@+id/Setblank"
+                android:orderInCategory="103"
+                android:showAsAction="never"
+                android:title="BLACK"/>
+        </menu>
+    </item>
+
+</menu>

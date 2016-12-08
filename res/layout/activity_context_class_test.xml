@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/context_Class_Test_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD menu" />
+
+        <ToggleButton
+            android:id="@+id/context_Class_Test_toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" />
+        <Button
+            android:id="@+id/context_Class_Test_buttondel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="del menu" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/context_Class_Test_delandadd"
+            android:text="删除添加测试文本"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/context_Class_Test_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="测试文本" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SHS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello 邯郸学院-嵌入式系统工程!</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_alert_dialog">AlertDialogActivity</string>
+    <string name="title_activity_auto_comeplete_text">AutoComepleteTextActivity</string>
+    <string name="title_activity_progressbar">ProgressbarActivity</string>
+    <string name="title_activity_item_dialog">ItemDialogActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+
+    <string-array name="Studed">
+        <item>Intent</item>
+        <item>AlertDialog</item>
+        <item>AutoCompleteTextView</item>
+        <item>Progressbar</item>
+        <item>MyToast</item>
+        <item>ItemDialog</item>
+        <item>SingleChoiceItems</item>
+        <item>MultiChoiceItems</item>
+        <item>DatePickerFragment</item>
+        <item>ProgressDialog</item>
+        <item>MyDialog</item>
+        <item>Spinner</item>
+        <item>SimpleAdapterlistview</item>
+        <item>ContextMenu</item>
+        <item>DemoList_BooklistActivity</item>
+        <item>TabHost</item>
+    </string-array>
+
+    <string name="title_activity_simpleadapter">SimpleadapterActivity</string>
+    <string name="title_activity_context_menu">ContextMenuActivity</string>
+    <string name="title_activity_demo_list__booklist">DemoList_BooklistActivity</string>
+    <string name="title_activity_tab_host">TabHostActivity</string>
+    <string name="title_activity_expandable_list_view">ExpandableListViewActivity</string>
+    <string name="title_activity_selected_menu">SelectedMenuActivity</string>
+    <string name="title_activity_observe_mode">ObserveModeActivity</string>
+    <string name="title_activity_context_class_test">ContextClassTestActivity</string>
+    <string name="title_activity_actionbar_e_main_">Actionbar_e_main_Activity</string>
+    <string name="title_activity_sqllite">SQLliteActivity</string>
+
+</resources>

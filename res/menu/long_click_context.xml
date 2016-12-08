@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+         android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Center"
+            android:orderInCategory="101"
+            android:title="Center" />
+        <item
+            android:id="@+id/LeftTop"
+            android:orderInCategory="102"
+            android:title="LeftTop" />
+        <item
+            android:id="@+id/RightTop"
+            android:orderInCategory="103"
+            android:title="RightTop" />
+        <item
+            android:id="@+id/LeftBotton"
+            android:orderInCategory="104"
+            android:title="LeftBotton" />
+        <item
+            android:id="@+id/RightBotton"
+            android:orderInCategory="105"
+            android:title="RightBotton" />
+    </group>
+
+</menu>
